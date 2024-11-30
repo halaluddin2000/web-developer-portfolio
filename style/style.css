@@ -23,6 +23,13 @@ body {
   background-position: bottom right;
   background-size: 636px;
 }
+.header {
+  background-image: url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100px 600px;
+  padding: 25px;
+}
 .navbar {
   display: flex;
   padding: 0px 100px;
