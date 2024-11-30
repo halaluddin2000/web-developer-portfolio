@@ -1,0 +1,81 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-variation-settings: "wdth" 100;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.primary-btn {
+  background-color: #fd6e0a;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 6px;
+}
+
+/* main css */
+.header {
+  background-color: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.navbar {
+  display: flex;
+  padding: 0px 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.nav ul {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+}
+
+.website-logo {
+  font-size: xx-large;
+}
+.nav-btn {
+  font-size: smaller;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+/* hero section */
+.hero-section {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  padding: 30px 30px 0px 100px;
+}
+.hero-section img {
+  width: 444px;
+  height: 496px;
+  background-position: right;
+  background-position: bottom;
+}
+.hero-content {
+  max-width: 500px;
+}
+.hero-congress {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.hero-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.text-para p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
