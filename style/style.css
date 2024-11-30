@@ -10,7 +10,9 @@ body {
   color: #fff;
   border-radius: 10px;
   border: none;
-  padding: 6px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
 
 /* main css */
@@ -19,6 +21,7 @@ body {
   background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
+  background-size: 636px;
 }
 .navbar {
   display: flex;
@@ -47,13 +50,12 @@ body {
 /* hero section */
 .hero-section {
   display: flex;
-  gap: 15px;
+  align-items: center;
   justify-content: space-between;
   padding: 30px 30px 0px 100px;
 }
 .hero-section img {
-  width: 444px;
-  height: 496px;
+  height: 500px;
   background-position: right;
   background-position: bottom;
 }
@@ -62,13 +64,13 @@ body {
 }
 .hero-congress {
   color: #474747;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 0px;
 }
 .hero-title {
   color: #181818;
-  font-size: 85px;
+  font-size: 65px;
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 0px;
